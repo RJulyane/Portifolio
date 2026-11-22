@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './Components/Navbar/NavBar';
@@ -13,18 +12,16 @@ import './index.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <BrowserRouter>
-          <Navbar/>
-          <Routes>/*meio da tela*/
-            <Route path="/" element={<Home/>}/>
-            <Route path="/sobre" element={<Sobre/>}/>
-            <Route path="/projetos" element={<Projetos/>}/>
-            <Route path="/contato" element={<Contato/>}/>
-          </Routes>
-          <Rodape/>
-        </BrowserRouter>
-      </header>
+      <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/sobre" element={<Sobre/>}/>
+          <Route path="/projetos" element={<Projetos/>}/>
+          <Route path="/contato" element={<Contato/>}/>
+        </Routes>
+        <Rodape/>
+      </BrowserRouter>
     </div>
   );
 }
