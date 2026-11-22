@@ -13,19 +13,19 @@ code {
     monospace;
 }
 */
-:root {/*pra selecionar tudo, ja que não é só html, e facilitar */
+:root{/*pra selecionar tudo, ja que não é só html, e facilitar */
   --cor-fundo: #0D0D0D;
   --cor-destaque: #D6448D;
   --cor-texto: #F5F5F5;
 }
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+body{
   font-family: Arial, sans-serif;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);

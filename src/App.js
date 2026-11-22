@@ -7,6 +7,7 @@ import Home from './Paginas/Home';
 import Sobre from './Paginas/Sobre';
 import Projetos from './Paginas/Projetos';
 import Contato from './Paginas/Contato';
+import './index.css';
 
 /*Não esquecer de definir os links*/
 function App() {
