@@ -6,6 +6,7 @@ function NavBar() {
     <nav className={styles.navbar}>
       <h1 className={styles.logo}>Meu Portfólio</h1>
       <ul className={styles.menu}>
+        <ion-icon name="code-outline"></ion-icon>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/sobre">Sobre</Link></li>
         <li><Link to="/projetos">Projetos</Link></li>

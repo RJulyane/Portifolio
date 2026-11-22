@@ -13,11 +13,17 @@ code {
     monospace;
 }
 */
-:root{/*pra selecionar tudo, ja que não é só html, e facilitar */
+a {
+  color: #9b0b47;
+}
+a:hover {
+  color: #ffffff; /* Cursor em cima */
+}
+:root{
   --cor-fundo: #0D0D0D;
   --cor-destaque: #D6448D;
   --cor-texto: #F5F5F5;
-}
+}/*icones: https://ionic.io/ionicons -->*/
 
 *{
   margin: 0;

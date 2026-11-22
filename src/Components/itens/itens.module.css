@@ -1,0 +1,27 @@
+.card {
+  width: 280px;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: rgba(245, 245, 245, 0.05);
+  border: 1px solid var(--cor-destaque);
+}
+
+.imagem {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.titulo {
+  margin-top: 12px;
+  color: var(--cor-destaque);
+}
+
+.categoria {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.lista {
+  margin-top: 8px;
+  padding-left: 20px;
+}
