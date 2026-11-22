@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  border-bottom: 2px rgba(244, 238, 241, 0.5);
+  background-color: rgba(214, 68, 141, 0.7);
+  backdrop-filter: blur(6px); /*verificar se ta certo*/
+}
+
+.logo {/*colocar aqueles icones*/
+  font-size: 1.4rem;
+  color: var(--cor-texto);
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.menu a {
+  color: var(--cor-texto);
+  text-decoration: none;
+}
+.menu a:hover {
+  color: var(--cor-fundo);
+}
