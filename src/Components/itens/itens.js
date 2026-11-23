@@ -1,4 +1,4 @@
-import styles from './itens.module.css';
+import styles from './Itens.module.css';
 
 function Itens({ titulo, categoria, descricao, tecnologias, imagem, semestre}) {
   return (

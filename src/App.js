@@ -1,12 +1,13 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Navbar from './Components/Navbar/NavBar';
-import Rodape from './Components/Rodape/Rodape';
-import Home from './Paginas/Home';
-import Sobre from './Paginas/Sobre';
-import Projetos from './Paginas/Projetos';
-import Contato from './Paginas/Contato';
+import Navbar from './components/Navbar/NavBar';
+import Rodape from './components/Rodape/Rodape';
+import Home from './pages/Home';
+import Sobre from './pages/Sobre';
+import Projetos from './pages/Projetos';
+import Contato from './pages/Contato';
 import './index.css';
+import styles from './App.module.css'
 
 /*Não esquecer de definir os links*/
 function App() {

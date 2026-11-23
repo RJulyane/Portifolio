@@ -1,10 +1,10 @@
-import Itens from '../Components/itens/itens';
+import Itens from '../components/Itens/Itens';
 import imagemCinema from '../assets/GerenciarCinema.png';
 import styles from './Projetos.module.css';
 import ImagemJOGitto from '../assets/JOGitto.png';
 import ImagemONarrador from '../assets/o_narrador.png';
 
-function Projetos() {
+function Projetos(){
   return (
     <main className={styles.projetos}>
       <Itens
