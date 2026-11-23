@@ -1,13 +1,12 @@
-import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar/NavBar';
-import Rodape from './Rodape.module.cssomponents/Rodape/Rodape';
+import Rodape from './components/Rodape/Rodape';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Projetos from './pages/Projetos';
 import Contato from './pages/Contato';
 import './index.css';
-import styles from './App.module.css'
+import './App.module.css' /*ainda não consegue manda pra baixo */
 
 /*Não esquecer de definir os links*/
 function App() {
