@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar/NavBar';
-import Rodape from './components/Rodape/Rodape';
+import Rodape from './Rodape.module.cssomponents/Rodape/Rodape';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Projetos from './pages/Projetos';
